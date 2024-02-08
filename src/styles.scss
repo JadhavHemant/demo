@@ -1,0 +1,353 @@
+//@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+html {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+ // font-family: 'Josefin Sans', cursive;
+  font-size: 15px;
+  margin: 0;
+  line-height: 24px;
+}
+
+body {
+  margin: 0;
+  background-color: #fdfbfb;
+}
+
+body, html, #app, #app > div{
+  height: 100%;
+}
+.fa-tachometer{
+  color:#FFFFFF
+}
+.fa-wpforms,.fa-send,.fa-plus,fa-user-plus,.fa-tachometer,.fa-sign-out,.fa-users,.fa-info-circle{
+  color: #FF9A00;
+}
+thead{
+  color: rgb(15, 15, 15);
+  //font-weight: bold;
+  padding: 20px;
+  background-color:hsla(209, 65%, 60%, 0.719);
+}
+th{
+font-weight: normal;
+padding:5px;
+border-color: rgb(83, 146, 228);
+text-align: center;
+color: rgb(5, 5, 5);
+width: 30%
+}
+button{
+  background-color: #FF9A00;
+  color: #000
+}
+// .fa-sign-out{
+//   color:#FFFFFF
+// }
+
+button:hover{
+  background-color: rgb(83, 146, 228);
+}
+button[type=submit]{
+  background-color: #FF9A00;
+  font-size: 1rem;
+  color: #000;
+}
+button[type=submit]:hover{
+  background-color: rgb(83, 146, 228); 
+}
+h6{
+  color: rgb(5, 5, 5);
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h5{
+  color: rgb(5, 5, 5);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+input[type=submit]{
+  background-color: #FF9A00;
+  font-size: 1rem
+}
+input[type=submit]:hover{
+  background-color: rgb(83, 146, 228)
+}
+
+a {
+   color: #000;
+   text-decoration: none;
+ }
+
+a:hover {
+  text-decoration:none;
+}
+
+.m-b-15 {
+  margin-bottom: 15px
+}
+td{
+  text-align: center;
+  color: rgb(5, 5, 5);
+  border-color: #4068eb;
+}
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+// ::-webkit-scrollbar-thumb {
+//   background: #FF0000;
+// }
+
+table.table-hover tbody tr td:hover {
+  background-color: #fb9692; 
+}
+.img-hover-zoom {
+  height: 50px; /* [1.1] Set it as per your need */
+  overflow: hidden;
+  z-index: 1100;
+  transition: height 2s,width 2s ease;
+   /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover div {
+  width: 300px;
+  height: 300px;
+
+}
+.img-hover-zoom:hover img {
+  transform: scale(1.5)
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 0%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color:grey;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: gray;
+}
+.carouselExampleIndicators{
+  content:'-';
+  color: #FF9A00
+}
+
+.dropbtn {
+  width: 100%;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.dropdowns {
+  position  : relative;
+  margin-top: 10px;
+  display: inline-block;
+ }
+ .bar {
+  padding-left: 60px;
+  padding: 0 auto;
+ }
+.sBar:hover {
+  fill: brown;
+ }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdowns:hover .dropdown-content {display: block;}
+
+
+.dropdowns:hover .dropbtn {background-color: #FFFFFF;}
+.dropbtn1 {
+  width: 100%;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown1 {
+  position  : relative;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 160px;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content1 a:hover {background-color: #ddd;}
+
+.dropdown1:hover .dropdown-content1 {display: block;}
+
+.dropdown1:hover .dropbtn1 {background-color: #FFFFFF;}
+
+.dropbtn2 {
+  width: 100%;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown2 {
+  position  : relative;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 160px;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 a:hover {background-color: #ddd;}
+
+.dropdown2:hover .dropdown-content2 {display: block;}
+
+.dropdown2:hover .dropbtn2 {background-color: #FFFFFF;}
+
+.dropbtn3 {
+  width: 100%;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown3 {
+  position  : relative;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 160px;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.dropdown-content3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content3 a:hover {background-color: #ddd;}
+
+.dropdown3:hover .dropdown-content3 {display: block;}
+
+.dropdown3:hover .dropbtn3 {background-color: #FFFFFF;}
+
+.dropbtn4 {
+  width: 100%;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown4 {
+  position  : relative;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 160px;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.dropdown-content4 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content4 a:hover {background-color: #ddd;}
+
+.dropdown4:hover .dropdown-content4 {display: block;}
+
+.dropdown4:hover .dropbtn4 {background-color: #FFFFFF;}
